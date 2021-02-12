@@ -16,6 +16,3 @@ print(my_dict.get('age'))
 
 #Line added by Pardeep
 print(my_dict)
-
-#Pardeep
-
