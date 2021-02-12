@@ -9,7 +9,12 @@ print(my_dict.get('age'))
 
 # Trying to access keys which doesn't exist throws error
 # Output None
-print(my_dict.get('address'))
+#print(my_dict.get('address'))
 
 # KeyError
-print(my_dict['address'])
+#print(my_dict['address'])
+
+#Line added by Pardeep
+print(my_dict)
+
+
