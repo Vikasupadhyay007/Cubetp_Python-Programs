@@ -1,6 +1,6 @@
-msg = "how is you?"
+msg = "how are you?"
 def greet():
-    msg = "good morning"
+    msg = "Good morning"
     print("msg inside function", msg)
 
 greet()
