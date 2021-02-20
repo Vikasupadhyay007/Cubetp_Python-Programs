@@ -1,11 +1,11 @@
-*** Tkinter is the standard GUI library for Python. Python when combined with Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit.
+# Tkinter is the standard GUI library for Python. Python when combined with Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit.
 
-Creating a GUI application using Tkinter is an easy task. All you need to do is perform the following steps −
+# Creating a GUI application using Tkinter is an easy task. All you need to do is perform the following steps −
 
-Import the Tkinter module.
+# Import the Tkinter module.
 
-Create the GUI application main window.
+# Create the GUI application main window.
 
-Add one or more of the above-mentioned widgets to the GUI application.
+# Add one or more of the above-mentioned widgets to the GUI application.
 
-Enter the main event loop to take action against each event triggered by the user.***
+# Enter the main event loop to take action against each event triggered by the user.
