@@ -2,9 +2,10 @@ from tkinter import *
 
 root = Tk()
 
-def printName():
+def printName(event):
     print("my is a Arun")
-button_1 = Button(root, text = "Print my name", command = printName)
+button_1 = Button(root, text = "Print my name")
+button_1.bind("<Button-1>", printName)
 button_1.pack()
 
 root.mainloop()
