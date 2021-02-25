@@ -2,6 +2,8 @@ from tkinter import *
 
 root = Tk()
 
+root.minsize(50, 50) # it will not small than this
+root.maxsize(250, 150)
 canvas = Canvas(root, width = 200, height = 100)
 canvas.pack()
 
