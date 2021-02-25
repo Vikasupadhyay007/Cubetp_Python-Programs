@@ -8,7 +8,7 @@ root = Tk()
 menu = Menu(root)
 root.config(menu = menu)
 
-subMenu = Menu(menu)
+subMenu = Menu(menu, tearoff = 0) # tearoff help to not show the line
 menu.add_cascade(label = "File", menu = subMenu)
 subMenu.add_command(label = "New Project", command = doNothing)
 subMenu.add_command(label = "New", command = doNothing)
