@@ -34,7 +34,7 @@ toolbar.pack(side = TOP, fill = X)
 
 # **** status bar ****
 
-status = Label(root, text = "File saved", bd = 1, relief = SUNKEN, anchor = W)
+status = Label(root, text = "File saved", bd = 1, relief = SUNKEN, anchor = W) # you can use font = "bold" if you want
 status.pack(side = BOTTOM, fill = X)
 
 root.mainloop()
