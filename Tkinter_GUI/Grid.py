@@ -1,5 +1,8 @@
 from tkinter import *
 
+def getvals():
+    pass
+
 root = Tk()
 
 label_1 = Label(root, text = "Name")
@@ -15,5 +18,7 @@ entry_2.grid(row = 1, column = 1)
 
 c = Checkbutton(root, text = "Keep me logged in")
 c.grid(columnspan = 2)
+
+Button(text = "Submit", command = getvals).grid()
 
 root.mainloop()
